@@ -4,15 +4,50 @@
 <title>r3dface</title>
 </head>
 <body>
+	<style type="text/css">
+          .wrap{
+	background-color: #333;
+	padding: 10px;
+	color: white;
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	font-family: arial;
+	font-style: bold;
+	text-align: center;
+}
+.navi{
+	background-color: gold;
+	padding: 10px;
+	color: red;
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	font: italic small-caps bold 30px arial;
+text-decoration: none;
+text-transform: capitalize;
+word-spacing: 30 px;
+	/*
+	font-family: impact;
+	font-style: bold;*/
+	text-align: center;
+}
 
+a{ color: inherit;text-decoration: inherit; }
+          </style>
 <h2>r3dface.github.io</h2>
 <h3>by faiz abdillah </h3>
 <section id="downloads">
-          
+          	<div class="wrap">
+<div class="navi">
+<nav>
             <a href="https://github.com/r3dface/r3dface.github.io/zipball/master" class="btn">Download as .zip</a>
             <a href="https://github.com/r3dface/r3dface.github.io/tarball/master" class="btn">Download as .tar.gz</a>
             <a href="https://github.com/r3dface/r3dface.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>       
+        </section>  
+          </nav>
+</div>
+<hr />
           <br>
 <h1 id="demo"></h1>
 
@@ -26,7 +61,7 @@ document.getElementById("demo").innerHTML = text;
 <script>
 var text = "";
 var link=prompt('masukan kata kunci');
-text =" <iframe width='100%' height='2000px' src='"+link+"' frameborder='' scrolling='no' ></iframe>"; 
+text =" <iframe width='100%' height='100%' src='"+link+"' frameborder='' scrolling='no' ></iframe>"; 
 document.getElementById("demo").innerHTML = text;
 </script>
 <h1 id="demo" ></h1>
@@ -34,6 +69,6 @@ document.getElementById("demo").innerHTML = text;
 var link= prompt('imput : ');
 document.getElementById("demo").innerHTML ="<iframe width='100%' height='2000px' src='"+link+"' frameborder='' scrolling='no' ></iframe>"; 
 </script>
-
+          </div>
 </body>
 </html>
